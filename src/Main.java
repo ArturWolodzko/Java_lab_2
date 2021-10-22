@@ -9,6 +9,57 @@ public class Main {
           to dać komunikat "liczba XX podzielna przez YY" (XX-liczba podzielna YY-podzielnik)
         */
 
+            /* Przykład.1 */
+
+            /* Pętle while */
+           /* int i = 10;
+            while (i > 0) {
+                System.out.println("i: " + i);
+                --i;
+            }
+
+            i = 10;
+            System.out.println("\n");
+            while ((--i) > 0) {
+                System.out.print("\nindex: " + i);
+                if (i % 3 == 0) {
+                    System.out.print(" - podzielna przez 3");
+                }
+            }
+            */
+           /*int i = 1000;
+            while (i>0) {
+                --i;
+                System.out.println("\n");
+                if (--i % 67) {
+                    System.out.println("liczba podzielna przez 67");
+                }
+            }*/
+      /* int i;
+
+        i = 1000;
+        System.out.println("\n");
+        while (i > 0) {
+            if (i % 67 == 0) {
+                System.out.print("\nliczba " + i);
+                System.out.print(" jest podzielna przez 67");
+
+            }
+            i--;
+        }*/
+
+//        int i =1000;
+//        while (i>0){
+//            if ( i % 30 == 0){
+//                System.out.print("liczba"+i );
+//                System.out.println("jest podzielna przez 30");
+//
+//            }i--;
+//        }
+
+
+
+
 
         /* zad 2
         a) stworzyć tablicę typu int wielkosci 5, przypisac jej dowolne wartości,
@@ -16,6 +67,10 @@ public class Main {
         b) jak wyżej tylko dla tablicy typu double[],
         c) jak wyżej dla tablicy String[], przeiterować i wyświetlić od ostatniego elementu
         */
+
+        int tab1[]= { 7,2,21,4,9};
+        System.out.println(tab1);
+
 
         /* zad.3
         a) sprawdzić jak zachowuje się pętla while gdy w jej warunku damy true --> while(true)
