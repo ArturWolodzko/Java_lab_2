@@ -68,14 +68,51 @@ public class Main {
         c) jak wyżej dla tablicy String[], przeiterować i wyświetlić od ostatniego elementu
         */
 
-        int tab1[]= { 7,2,21,4,9};
-        System.out.println(tab1);
+//        int tab1[]= { 7,2,21,4,9};
+//        int i = 0;
+//        while (i < 5){
+//            System.out.println(tab1[i]);
+//            i++;
+//        }
 
+//        int tab1[]={1,2,3,4,5,6,4,3,2,1,};
+//        int i = 0 ;
+//        while (i < 10){
+//            System.out.println(tab1[i]);
+//            i=i+2;
+//        }
+
+//        double tab1[]= {1.02 , 1.423, 3.564 , 5.123 , 102.4213};
+//        int i=0;
+//        while(i<5){
+//            System.out.println(tab1[i]);
+//            i++;
+//        }
+
+
+//        String tab1[]={"artur","marek","stanisław","wojtek", "kamil"};
+//        int i =0;
+//        while(i<5){
+//            System.out.println(tab1[i]);
+//            i++;
+//        }
 
         /* zad.3
         a) sprawdzić jak zachowuje się pętla while gdy w jej warunku damy true --> while(true)
         b) a jak gdy damy false --> while(false)
         */
 
+
+//        int i = 10;
+//        while (true){
+//            System.out.println(i);
+//            i--;
+//        }
+
+        int i = 10;
+        while(false){
+            System.out.println(i);
+            i--;
+        }
     }
 }
