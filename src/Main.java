@@ -51,5 +51,33 @@ public class Main {
            b) oraz ma określić ile jest pozostałych liter, które nie należą do: 'o', 'p', 'x', 'z', 'q'
          */
 
+        String text = "ooooozjoonoxoooozoooooooooozoxooooopnpppoooiiooooomnzooooxoqoojoozoootyoooozoooxoooozooooxooooooojoooopxoooonnmooo";
+        int[] tab1 = {0,0,0,0,0,0};
+        for(char zmiennaChar : text.toCharArray()){
+            switch ((zmiennaChar)){
+                case 'o':
+                    ++tab1[0];
+                    break;
+                case'p':
+                    ++tab1[1];
+                    break;
+                case 'x':
+                    ++tab1[2];
+                    break;
+                case 'z':
+                    ++tab1[3];
+                    break;
+                case 'q':
+                    ++tab1[4];
+                    break;
+                default:
+                    ++tab1[5];
+                    break;
+            }
+
+        }System.out.printf("\n dane litery występują tyle razy \n o występuje %d razy  \n p występuje %d razy " +
+                        "\n x występuje %d razy \n z występuje %d razy \n q występuje %d razy \n reszta liter = %d", tab1[0],
+                tab1[1],tab1[2],tab1[3],tab1[4],tab1[5]);
+
     }
 }
