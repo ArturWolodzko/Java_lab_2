@@ -37,15 +37,11 @@ public class Main {
 
         }
 
-    Scanner skan = new Scanner(System.in);
-    String tab1 = new String[5];
-    for (int i = 1; i<5 ; i++)
 
-    {
-        System.out.println("podaj %d imię", i + 1);
-        tab1[i] = skan.nextLine();
+
+
     }
-    System.out.printf(%s , %s, %s , %s , )
+
 
 
 
