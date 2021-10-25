@@ -1,10 +1,46 @@
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 public class Main {
+    public static void uzupełnianieTablicy(int[] tab1 , int wartosc) {
+        for (int i=0 ; i<20 ; i++){
+            tab1[i]=40- i * wartosc;
+        }
+    }
 
+    public static void wyswietlTablice(int[] tab1){
+        for (int i=0; i<20 ; i++){
+            System.out.println("wartość zmiennej o indeksie " +i +" wynosi " + tab1[i]);
+        }
+    }
+    public static void imionaTablica(String[] tab2){
+        Scanner skan= new Scanner(System.in);
+        for (int i = 0 ; i<6 ; i++){
+            System.out.println("podaj imię;");
+            tab2[i]= skan.nextLine();
+        }
+    }
+    public static void wyswietlanie (String[] tab2){
+        for(int j = 5; j>=0 ; j--){
+            System.out.println(tab2[j]);
+        }
+    }
+
+
+//    public static void dodawanieLiczb(){
+//        Scanner skan = new Scanner(System.in);
+//        int a;
+//        int b;
+//        System.out.println("podaj liczbę");
+//        a = skan.nextInt();
+//        System.out.println("podaj drugą liczbę");
+//        b = skan.nextInt();
+//        System.out.println("wynik wynosi :"+( a + b));
+//    }
+//
     public static void main(String[] args) {
-        /* ćwiczenie 5 Metody */
+//        /* ćwiczenie 5 Metody */
 
         /* zad.1
         a) stworzyć tablicę typu int[20],
@@ -13,12 +49,28 @@ public class Main {
         d) wstawić wywołanie metody do metody main
         */
 
+//       int[] tablica1 = new int[20];
+//        int[] tablica2 = new int[20];
+//        int[] tablica3 = new int[20];
+//        int[] tablica4 = new int[20];
+//        int[] tablica5 = new int[20];
+
+      // uzupełnianieTablicy(tablica1 , 5);
+      // wyswietlTablice(tablica1);
+      // dodawanieLiczb();
+        //uzupełnianieTablicy(tablica2, 2);
+       // wyswietlTablice(tablica2);
+
         /* zad.2
         a) stworzyc tablicę typu String[6],
         b) napisać metodę która uzupełni tablicę wartościami podawanymi z klawiatury
             (użyć do tego pętli i klasy Scanner),
         c) napisać metodę która wyświetli elementy tablicy od ostatniego elementu do elementu o indeksie 0,
         */
+        String[] tablica2 = new String[6];
+        imionaTablica(tablica2);
+        wyswietlanie(tablica2);
+
 
         /* zad.3
         a) napisać metodę która przyjmuje 1 parametr typu String, metoda nic nie zwraca, tylko
