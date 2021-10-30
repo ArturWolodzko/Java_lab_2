@@ -1,8 +1,14 @@
-import java.math.BigDecimal;
-import java.math.BigInteger;
 import java.util.*;
 
 public class Main {
+
+    public static void wyswietlanie(ArrayList<String> lista1){
+        for(String element : lista1){
+            System.out.println(element);
+        }
+    }
+
+
 
     public static void main(String[] args) {
 
@@ -21,10 +27,21 @@ public class Main {
 
         ArrayList<String> zwierzęta = new ArrayList<>();
         Scanner scan = new Scanner(System.in);
-        for (int i= 0; i<=5; i++);{
+        for (int i= 0; i<5; i++){
         System.out.println("podaj imię");
         zwierzęta.add(scan.nextLine());}
-        System.out.println(zwierzęta);
+        wyswietlanie(zwierzęta);
+        zwierzęta.remove(3);
+        zwierzęta.remove(zwierzęta.size()-1);
+        for (int i = 0 ; i<3 ; i++){
+        System.out.println("podaj  następne imiona:");
+        zwierzęta.add(scan.nextLine());}
+        System.out.print(zwierzęta + " wielkość listy wynosi: ");
+        System.out.print(zwierzęta.size()+ "\n");
+        zwierzęta.sort(Collections.reverseOrder());
+        wyswietlanie(zwierzęta);
+
+
 
 
          /* zad.2 Napisać program który stworzy Set<Integer> i wprowadzamy 10 liczb z klawiatury
