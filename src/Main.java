@@ -2,12 +2,11 @@ import java.util.*;
 
 public class Main {
 
-    public static void wyswietlanie(ArrayList<String> lista1){
-        for(String element : lista1){
+    public static void wyswietlanie(ArrayList<String> lista1) {
+        for (String element : lista1) {
             System.out.println(element);
         }
     }
-
 
 
     public static void main(String[] args) {
@@ -25,21 +24,21 @@ public class Main {
                 elementów listy
           */
 
-        ArrayList<String> zwierzęta = new ArrayList<>();
-        Scanner scan = new Scanner(System.in);
-        for (int i= 0; i<5; i++){
-        System.out.println("podaj imię");
-        zwierzęta.add(scan.nextLine());}
-        wyswietlanie(zwierzęta);
-        zwierzęta.remove(3);
-        zwierzęta.remove(zwierzęta.size()-1);
-        for (int i = 0 ; i<3 ; i++){
-        System.out.println("podaj  następne imiona:");
-        zwierzęta.add(scan.nextLine());}
-        System.out.print(zwierzęta + " wielkość listy wynosi: ");
-        System.out.print(zwierzęta.size()+ "\n");
-        zwierzęta.sort(Collections.reverseOrder());
-        wyswietlanie(zwierzęta);
+//        ArrayList<String> zwierzęta = new ArrayList<>();
+//        Scanner scan = new Scanner(System.in);
+//        for (int i= 0; i<5; i++){
+//        System.out.println("podaj imię");
+//        zwierzęta.add(scan.nextLine());}
+//        wyswietlanie(zwierzęta);
+//        zwierzęta.remove(3);
+//        zwierzęta.remove(zwierzęta.size()-1);
+//        for (int i = 0 ; i<3 ; i++){
+//        System.out.println("podaj  następne imiona:");
+//        zwierzęta.add(scan.nextLine());}
+//        System.out.print(zwierzęta + " wielkość listy wynosi: ");
+//        System.out.print(zwierzęta.size()+ "\n");
+//        zwierzęta.sort(Collections.reverseOrder());
+//        wyswietlanie(zwierzęta);
 
 
 
@@ -48,6 +47,32 @@ public class Main {
                 niech liczby się powtarzają, proszę posortować a następnie wyświetlić zawartość set-a w konsoli
                  a następnie przeiterować i wyświetlić forEach-em (jak wyżej)
          */
+
+
+//        Set<Integer> liczby1 = new TreeSet<Integer>();
+//        Scanner skan = new Scanner(System.in);
+//        for (int i = 0; i < 10; i++) ;
+//        {
+//            System.out.println("podaj liczbę");
+//            liczby1.add(skan.nextInt());
+//        }
+//        System.out.println(liczby1);
+
+//
+        Set<Integer> liczby1 = new TreeSet<>();
+        Scanner skan = new Scanner(System.in);
+        for (int i = 0; i < 10; i++)
+        {
+            System.out.println("podaj liczbę");
+            liczby1.add(skan.nextInt());
+        }
+        System.out.println(liczby1);
+
+//        Set<Integer> aaa = new TreeSet<>();
+//        Scanner tt = new Scanner(System.in);
+//        for (int index = 0; index < 10; index++) {
+//            aaa.add(tt.nextInt());
+//        }
 
 
     }
