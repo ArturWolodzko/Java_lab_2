@@ -18,6 +18,11 @@ public class Main {
 //            }
 //        }
 
+//        for (int i = 100 ; i>0;i--){
+//            if(i%3==0){
+//                System.out.printf("\n" + i + " ta liczba jest podzielna przez 3");
+//            }
+
 
         /* zad.2 Napisz program który będzie uzupełniał tablicę 5-cio elementową int[] liczbami
          * wprowadzanymi z klawiatury (użyć klasy Scanner), a następnie będzie wyświetlał elementy tablicy
@@ -36,6 +41,9 @@ public class Main {
 //            System.out.println(a);
 
         }
+        int[] tab1 = new int[10];
+        Scanner scan = new Scanner(System.in);
+        for(int i = 0; )
 
 
 
