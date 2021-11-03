@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -97,12 +99,12 @@ public class Main {
 //        }
 
 
-        String tab1[]={"artur","marek","stanisław","wojtek", "kamil"};
-        int i =0;
-        while(i<5){
-            System.out.println(tab1[i]);
-            i++;
-        }
+//        String tab1[]={"artur","marek","stanisław","wojtek", "kamil"};
+//        int i =0;
+//        while(i<5){
+//            System.out.println(tab1[i]);
+//            i++;
+//        }
 
         /* zad.3
         a) sprawdzić jak zachowuje się pętla while gdy w jej warunku damy true --> while(true)
@@ -120,6 +122,13 @@ public class Main {
 //        while(false){
 //            System.out.println(i);
 //            i--;
+
+
+        Scanner skan = new Scanner(System.in);
+        int[] tab1 = new int[5];
+        for(int i = 0; i <5 ; i ++){
+            System.out.println("podaj liczbę");
+        }
         }
     }
 
