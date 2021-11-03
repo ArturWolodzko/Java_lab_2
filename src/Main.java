@@ -57,6 +57,13 @@ public class Main {
 //            }i--;
 //        }
 
+//        int i = 100;
+//        while(i>0){
+//            if(i%2==0){
+//                System.out.printf("\nliczba %d podzielna przez 2" ,i);
+//            }i--;
+//        }
+
 
 
 
@@ -90,12 +97,12 @@ public class Main {
 //        }
 
 
-//        String tab1[]={"artur","marek","stanisław","wojtek", "kamil"};
-//        int i =0;
-//        while(i<5){
-//            System.out.println(tab1[i]);
-//            i++;
-//        }
+        String tab1[]={"artur","marek","stanisław","wojtek", "kamil"};
+        int i =0;
+        while(i<5){
+            System.out.println(tab1[i]);
+            i++;
+        }
 
         /* zad.3
         a) sprawdzić jak zachowuje się pętla while gdy w jej warunku damy true --> while(true)
@@ -109,10 +116,10 @@ public class Main {
 //            i--;
 //        }
 
-        int i = 10;
-        while(false){
-            System.out.println(i);
-            i--;
+//        int i = 10;
+//        while(false){
+//            System.out.println(i);
+//            i--;
         }
     }
-}
+
