@@ -50,6 +50,25 @@ public class Main {
         System.out.printf("\nsuma dodawania %d+%d+%d wynosi %d",liczba1,liczba2,liczba3,(liczba1+liczba2+liczba3));
         return (liczba1+liczba2+liczba3);
     }
+    public static int dodawaniePowtórkowe(int liczba1,int liczba2){
+        System.out.println("dodawanie wynosi:"+(liczba1+liczba2));
+        return (liczba1+liczba2);
+    }
+
+    public static void tablicaPierwsza(int tablica1){
+        Scanner skan= new Scanner(System.in);
+        for(int i =0; i <5 ; i++){
+            System.out.printf("podaj %d liczbe",i +1);
+            tablica1= skan.nextInt();
+
+        }
+
+    }
+    public static void wyswietlaniePierwsze(int tab2) {
+        for (int i = 0; i < 5; i++) {
+            System.out.println([i];
+        }
+    }
 
 
 
@@ -83,8 +102,8 @@ public class Main {
         int[] tablica4 = new int[20];
         int[] tablica5 = new int[20];
 
-       uzupełnianieTablicy(tablica1 , 5);
-       wyswietlTablice(tablica1);
+//       uzupełnianieTablicy(tablica1 , 5);
+//       wyswietlTablice(tablica1);
 //       dodawanieLiczb();
 //        uzupełnianieTablicy(tablica2, 2);
 //        wyswietlTablice(tablica2);
@@ -129,6 +148,11 @@ public class Main {
 //        wynik2 = dodawanie2(5,6,7);
 //        System.out.println("\nwynik=" + (dodawanie1(7,5) + dodawanie2(5,8,7)));
 //        System.out.println("\nwynik="+ (wynik1+wynik2));
+
+        tablicaPierwsza(1);
+        wyswietlaniePierwsze();
+
+
 
 
     }
