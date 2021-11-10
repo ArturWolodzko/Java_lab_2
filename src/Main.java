@@ -40,10 +40,21 @@ public class Main {
 //        { a= a + 11;
 //            System.out.println(a);
 
-        }
-        int[] tab1 = new int[10];
-        Scanner scan = new Scanner(System.in);
-        for(int i = 0; )
+
+
+//        int[] tab1 = new int[5];
+//        Scanner skan= new Scanner(System.in);
+//        for (int i = 0; i < 5; i++){
+//            System.out.printf("podaj %d liczbę", i +1);
+//            tab1[i]= skan.nextInt();
+//        }
+//        System.out.println(tab1[0]+" " +tab1[2]);
+
+
+
+
+
+
 
 
 
