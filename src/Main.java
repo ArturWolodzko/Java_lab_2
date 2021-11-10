@@ -43,6 +43,66 @@ public class Main {
 
 
 
+        /////////////////////////////////////////////////////////////
+
+
+
+
+
+//        ArrayList<String> imiona = new ArrayList<>();
+//        Scanner skan = new Scanner(System.in);
+//        for (int i = 0; i < 5; i++) {
+//            System.out.println("podaj imię");
+//            imiona.add(skan.nextLine());
+//        }
+//        wyswietlanie(imiona);
+//        imiona.remove(3);
+//        imiona.remove(2);
+//        for (int i =0; i <4 ; i ++){
+//            System.out.println("podaj kolejne imiona");
+//            imiona.add(skan.nextLine());
+//        }
+//        wyswietlanie(imiona);
+//        System.out.println( "liczba elementów tej liczby wynosi:" +imiona.size());
+
+        //////////////////////////////////////////////////
+
+
+
+
+
+
+//        Set<Integer> liczby1 = new TreeSet<>();
+//        Scanner skan = new Scanner(System.in);
+//        for (int i = 0; i < 10; i++)
+//        {
+//            System.out.println("podaj liczbę");
+//            liczby1.add(skan.nextInt());
+//        }
+//        System.out.println(liczby1);
+
+///////////////////////////////////////////////////////////////////////////
+
+
+
+
+        Set<Integer> liczby1= new TreeSet<>();
+        Scanner skan = new Scanner(System.in);
+        for(int i =0;i<6;i++){
+            System.out.printf("podaj %d liczbę",i+1);
+            liczby1.add(skan.nextInt());
+        }
+        System.out.println(liczby1);
+
+    }
+}
+
+
+
+
+
+
+
          /* zad.2 Napisać program który stworzy Set<Integer> i wprowadzamy 10 liczb z klawiatury
                 niech liczby się powtarzają, proszę posortować a następnie wyświetlić zawartość set-a w konsoli
                  a następnie przeiterować i wyświetlić forEach-em (jak wyżej)
@@ -59,22 +119,22 @@ public class Main {
 //        System.out.println(liczby1);
 
 //
-        Set<Integer> liczby1 = new TreeSet<>();
-        Scanner skan = new Scanner(System.in);
-        for (int i = 0; i < 10; i++)
-        {
-            System.out.println("podaj liczbę");
-            liczby1.add(skan.nextInt());
-        }
-        System.out.println(liczby1);
-
+//        Set<Integer> liczby1 = new TreeSet<>();
+//        Scanner skan = new Scanner(System.in);
+//        for (int i = 0; i < 10; i++)
+//        {
+//            System.out.println("podaj liczbę");
+//            liczby1.add(skan.nextInt());
+//        }
+//        System.out.println(liczby1);
+//
 //        Set<Integer> aaa = new TreeSet<>();
 //        Scanner tt = new Scanner(System.in);
 //        for (int index = 0; index < 10; index++) {
 //            aaa.add(tt.nextInt());
 //        }
-
-
-    }
-
-}
+//
+//
+//    }
+//
+//}
