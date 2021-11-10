@@ -56,17 +56,17 @@ public class Main {
 
 
 
-//    public static void dodawanieLiczb(){
-//        Scanner skan = new Scanner(System.in);
-//        int a;
-//        int b;
-//        System.out.println("podaj liczbę");
-//        a = skan.nextInt();
-//        System.out.println("podaj drugą liczbę");
-//        b = skan.nextInt();
-//        System.out.println("wynik wynosi :"+( a + b));
-//    }
-//
+    public static void dodawanieLiczb(){
+        Scanner skan = new Scanner(System.in);
+        int a;
+        int b;
+        System.out.println("podaj liczbę");
+        a = skan.nextInt();
+        System.out.println("podaj drugą liczbę");
+        b = skan.nextInt();
+        System.out.println("wynik wynosi :"+( a + b));
+    }
+
     public static void main(String[] args) {
 //        /* ćwiczenie 5 Metody */
 
@@ -77,17 +77,17 @@ public class Main {
         d) wstawić wywołanie metody do metody main
         */
 
-//       int[] tablica1 = new int[20];
-//        int[] tablica2 = new int[20];
-//        int[] tablica3 = new int[20];
-//        int[] tablica4 = new int[20];
-//        int[] tablica5 = new int[20];
+       int[] tablica1 = new int[20];
+        int[] tablica2 = new int[20];
+        int[] tablica3 = new int[20];
+        int[] tablica4 = new int[20];
+        int[] tablica5 = new int[20];
 
-      // uzupełnianieTablicy(tablica1 , 5);
-      // wyswietlTablice(tablica1);
-      // dodawanieLiczb();
-        //uzupełnianieTablicy(tablica2, 2);
-       // wyswietlTablice(tablica2);
+       uzupełnianieTablicy(tablica1 , 5);
+       wyswietlTablice(tablica1);
+//       dodawanieLiczb();
+//        uzupełnianieTablicy(tablica2, 2);
+//        wyswietlTablice(tablica2);
 
         /* zad.2
         a) stworzyc tablicę typu String[6],
@@ -122,13 +122,13 @@ public class Main {
             którą przypiszemy do zmiennej, coś takiego:     zmiennaB = metoda(7, 8, 9); <-- wywołanie metody
         c) wyświetlić sumę wywołań obu metod ---> print("wynik: " + (metoda(8, 9) + metoda(2, 3, 4));
         */
-        int wynik1;
-        int wynik2;
-
-        wynik1 = dodawanie1(5,5);
-        wynik2 = dodawanie2(5,6,7);
-        System.out.println("\nwynik=" + (dodawanie1(7,5) + dodawanie2(5,8,7)));
-        System.out.println("\nwynik="+ (wynik1+wynik2));
+//        int wynik1;
+//        int wynik2;
+//
+//        wynik1 = dodawanie1(5,5);
+//        wynik2 = dodawanie2(5,6,7);
+//        System.out.println("\nwynik=" + (dodawanie1(7,5) + dodawanie2(5,8,7)));
+//        System.out.println("\nwynik="+ (wynik1+wynik2));
 
 
     }
