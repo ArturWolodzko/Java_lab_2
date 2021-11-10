@@ -123,7 +123,7 @@ public class Main {
         System.out.println("podaj tekst");
         Scanner skan= new Scanner(System.in);
         String text = skan.nextLine();
-        int[] tab1 = { 0,0,0,0,0};
+        int[] tab1 = { 0,1,2,};
         for(char zmiennaChar : text.toCharArray() ){
             switch (zmiennaChar){
                 case 'a':
