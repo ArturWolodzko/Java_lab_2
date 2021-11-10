@@ -67,6 +67,14 @@ public class Main {
 //        }
 
 
+//        int i = 1000;
+//        while(i>0){
+//            if (i%66==0){
+//                System.out.println(i +" ta liczba jest podzielna przez 66");
+//            }i--;
+//        }
+
+
 
 
 
@@ -124,11 +132,11 @@ public class Main {
 //            i--;
 
 
-        Scanner skan = new Scanner(System.in);
-        int[] tab1 = new int[5];
-        for(int i = 0; i <5 ; i ++){
-            System.out.println("podaj liczbę");
-        }
+//        Scanner skan = new Scanner(System.in);
+//        int[] tab1 = new int[5];
+//        for(int i = 0; i <5 ; i ++){
+//            System.out.println("podaj liczbę");
+//        }
         }
     }
 
