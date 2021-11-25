@@ -22,6 +22,12 @@ public class Main {
 //            if(i%3==0){
 //                System.out.printf("\n" + i + " ta liczba jest podzielna przez 3");
 //            }
+//
+//        for (int i = 100; i > 0 ; i--){
+//            if(i%10==0){
+//                System.out.println(i);
+//            }
+//        }
 
 
         /* zad.2 Napisz program który będzie uzupełniał tablicę 5-cio elementową int[] liczbami
@@ -49,6 +55,34 @@ public class Main {
 //            tab1[i]= skan.nextInt();
 //        }
 //        System.out.println(tab1[0]+" " +tab1[2]);
+
+
+//        int[] tab2 = new int[5];
+//        Scanner skan = new Scanner(System.in);
+//        for(int i = 0; i<5 ; i++){
+//            System.out.printf("podaj %d liczbe " , i+1);
+//            tab2[i] = skan.nextInt();
+//        }
+//        System.out.println(tab2[1] +" " + 1tab2[2]);
+
+        Scanner skan = new Scanner(System.in);
+        int liczba;
+        int odpowiedz;
+        do {
+            System.out.println("podaj liczbę");
+            liczba = skan.nextInt();
+
+            switch (liczba) {
+                case 1:
+                    System.out.println("jeden");
+                    return;
+                case 2:
+                    System.out.println("dwa");
+                    return;
+            }
+            System.out.println("jeśli chcesz powtórzyć wybierz 0");
+            odpowiedz= skan.nextInt();
+        }while(odpowiedz == 0);
 
 
 
