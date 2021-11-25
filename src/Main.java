@@ -8,6 +8,12 @@ public class Main {
         }
     }
 
+    public static void zwierzetawys(List<String> lista1) {
+        for (String element : lista1) {
+            System.out.println(element);
+        }
+    }
+
 
     public static void main(String[] args) {
 
@@ -23,6 +29,27 @@ public class Main {
                 d) następnie proszę wykonać odwrotne sortowanie i znów użyć metody z punktu b) do wyświetlenia
                 elementów listy
           */
+
+        List<String> zwierzeta = new ArrayList<>();
+        Scanner skan = new Scanner(System.in);
+        System.out.println("podaj nazwy zwierząt");
+        for (int i = 0; i < 5; i++) {
+            zwierzeta.add(skan.nextLine());
+        }
+        zwierzetawys(zwierzeta);
+        zwierzeta.remove(zwierzeta.size()-1);
+        zwierzeta.remove(zwierzeta.size()-1);
+        System.out.println("\n");
+        zwierzetawys(zwierzeta);
+        for(int i = 0 ; i< 3; i++){
+            System.out.println("\npodaj nastepne");
+            zwierzeta.add(skan.nextLine());
+        }
+        System.out.println("\n");
+        zwierzetawys(zwierzeta);
+    }
+}
+
 
 //        ArrayList<String> zwierzęta = new ArrayList<>();
 //        Scanner scan = new Scanner(System.in);
@@ -41,12 +68,7 @@ public class Main {
 //        wyswietlanie(zwierzęta);
 
 
-
-
         /////////////////////////////////////////////////////////////
-
-
-
 
 
 //        ArrayList<String> imiona = new ArrayList<>();
@@ -68,10 +90,6 @@ public class Main {
         //////////////////////////////////////////////////
 
 
-
-
-
-
 //        Set<Integer> liczby1 = new TreeSet<>();
 //        Scanner skan = new Scanner(System.in);
 //        for (int i = 0; i < 10; i++)
@@ -84,18 +102,17 @@ public class Main {
 ///////////////////////////////////////////////////////////////////////////
 
 
+//        Set<Integer> liczby1= new TreeSet<>();
+//        Scanner skan = new Scanner(System.in);
+//        for(int i =0;i<6;i++){
+//            System.out.printf("podaj %d liczbę",i+1);
+//            liczby1.add(skan.nextInt());
+//        }
+//        System.out.println(liczby1);
+//
+//    }
 
 
-        Set<Integer> liczby1= new TreeSet<>();
-        Scanner skan = new Scanner(System.in);
-        for(int i =0;i<6;i++){
-            System.out.printf("podaj %d liczbę",i+1);
-            liczby1.add(skan.nextInt());
-        }
-        System.out.println(liczby1);
-
-    }
-}
 
 
 
