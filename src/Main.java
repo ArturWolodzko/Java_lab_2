@@ -120,26 +120,69 @@ public class Main {
 //        System.out.printf("w tekście znajduje sie \n%d liter a \n%d liter o \n%d liter w "
 //                ,tab1[0],tab1[1],tab1[2]);
 
-        System.out.println("podaj tekst");
-        Scanner skan= new Scanner(System.in);
-        String text = skan.nextLine();
-        int[] tab1 = { 0,1,2,};
-        for(char zmiennaChar : text.toCharArray() ){
-            switch (zmiennaChar){
-                case 'a':
-                    ++tab1[0];
-                    break;
-                case'b':
-                    ++tab1[1];
-                    break;
-                case'c':
-                    ++tab1[2];
-                    break;
+//        System.out.println("podaj tekst");
+//        Scanner skan= new Scanner(System.in);
+//        String text = skan.nextLine();
+//        int[] tab1 = { 0,1,2,};
+//        for(char zmiennaChar : text.toCharArray() ){
+//            switch (zmiennaChar){
+//                case 'a':
+//                    ++tab1[0];
+//                    break;
+//                case'b':
+//                    ++tab1[1];
+//                    break;
+//                case'c':
+//                    ++tab1[2];
+//                    break;
+//
+//            }
+//
+//        }System.out.printf("w twoim tekscie litera :\na występuje %d razy \nb wystepuje %d razy \nc wystepuje %d razy"
+//                ,tab1[0],tab1[1],tab1[2]);
 
+//        Scanner skan = new Scanner(System.in);
+//        System.out.println("podaj tekst: ");
+//        String text = skan.nextLine();
+//        int[] tab1 = {0,1,2};
+//        for (char zmiennaChar: text.toCharArray()){
+//            switch (zmiennaChar){
+//                case'a':
+//                    ++tab1[0];
+//                    break;
+//                case'c':
+//                    ++tab1[1];
+//                    break;
+//                case'd':
+//                    ++tab1[2];
+//                    break;
+//            }
+//        }
+//        System.out.printf("\nliter a : %s \nliter c: %s\nliter d : %s ",tab1[0],tab1[1],tab1[2]);
+
+
+        int liczba1;
+        Scanner skan = new Scanner(System.in);
+        for (int i = 0; i < 4; i++) {
+            System.out.println("podaj liczbę: ");
+            liczba1 = skan.nextInt();
+            switch (liczba1) {
+                case 1:
+                    System.out.println("jeden");
+                    break;
+                case 2:
+                    System.out.println("dwa");
+                    break;
+                case 3:
+                    System.out.println("trzy");
+                    break;
+                case 4:
+                    System.out.println("cztery");
+                    break;
             }
 
-        }System.out.printf("w twoim tekscie litera :\na występuje %d razy \nb wystepuje %d razy \nc wystepuje %d razy"
-                ,tab1[0],tab1[1],tab1[2]);
+        }System.out.println("\n\nKONIEC");
+
 
     }
 }
