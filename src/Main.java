@@ -13,6 +13,49 @@ public class Main {
 
             /* Przykład.1 */
 
+
+
+//        int i = 10;
+//        while (i > 0){
+//            System.out.println("i: " +i);
+//            --i;
+//        }
+
+
+//        int i = 20;
+//        while(i > 0){
+//            System.out.println(i);
+//            i--;
+//        }
+
+        int i;
+        Scanner skan = new Scanner(System.in);
+        int odpowiedz;
+        do {
+
+
+            System.out.println("podaj liczbe;");
+            i = skan.nextInt();
+
+
+            switch (i) {
+                case 1:
+                    System.out.println("jeden");
+                    return;
+                case 2:
+                    System.out.println("dwa");
+                    return;
+                case 3:
+                    System.out.println("trzy");
+                    return;
+                System.out.println("czy chcesz powtórzyć? 2 == tak");
+                odpowiedz= skan.nextInt();
+
+            }
+
+
+        }while (odpowiedz == 2);
+
             /* Pętle while */
            /* int i = 10;
             while (i > 0) {
@@ -132,12 +175,12 @@ public class Main {
 //            i--;
 
 
-        Scanner skan = new Scanner(System.in);
-        int[] tab1 = new int[5];
-        for(int i = 0; i <5 ; i ++){
-            System.out.println("podaj liczbę");
-            skan.nextInt();
-        }
+//        Scanner skan = new Scanner(System.in);
+//        int[] tab1 = new int[5];
+//        for(int i = 0; i <5 ; i ++){
+//            System.out.println("podaj liczbę");
+//            skan.nextInt();
+//        }
         }
     }
 
