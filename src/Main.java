@@ -64,10 +64,22 @@ public class Main {
         }
 
     }
-    public static void wyswietlaniePierwsze(int tab2) {
-        for (int i = 0; i < 5; i++) {
-            System.out.println([i];
-        }
+//    public static void wyswietlaniePierwsze(int tab2) {
+//        for (int i = 0; i < 5; i++) {
+//            System.out.println([i];
+//        }
+//    }
+
+    public static void liczenie(){
+        Scanner skan= new Scanner(System.in);
+        int a;
+        int b;
+        System.out.println("podaj liczbe:");
+        a=skan.nextInt();
+        System.out.println("podaj liczbę:");
+        b=skan.nextInt();
+        System.out.println("wynik wynosi:" + ( a+b));
+
     }
 
 
@@ -149,8 +161,7 @@ public class Main {
 //        System.out.println("\nwynik=" + (dodawanie1(7,5) + dodawanie2(5,8,7)));
 //        System.out.println("\nwynik="+ (wynik1+wynik2));
 
-        tablicaPierwsza(1);
-        wyswietlaniePierwsze();
+        liczenie();
 
 
 
